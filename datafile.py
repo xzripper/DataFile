@@ -122,7 +122,7 @@ class DataFile:
         else:
             return len(list(parsed.keys()))
 
-    def updatefile(self, newfile: str):
+    def updatefile(self, newfile: str) -> None:
         """Update file, using class constructor in function."""
         self.__init__(newfile)
 
